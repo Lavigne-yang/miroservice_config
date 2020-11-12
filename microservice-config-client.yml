@@ -24,6 +24,7 @@ spring:
   application:
       name: microconfig-test-client
 
+
 eureka:
  client:
   service-url:
