@@ -11,6 +11,10 @@ mybatis:
 mapper:
   identity: MYSQL   #配置主键自动增长
 spring:
+ security:
+   user:
+     name: admin
+     password: a
  datasource:
    type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
    driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
@@ -58,6 +62,10 @@ mybatis:
 mapper:
   identity: MYSQL   #配置主键自动增长
 spring:
+ security:
+   user:
+     name: admin
+     password: a
  datasource:
    type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
    driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
