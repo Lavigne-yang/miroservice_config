@@ -20,6 +20,10 @@ spring:
  application:
    name: microservice-config-product-client
  profiles: dev
+ security:
+   user:
+     name: admin
+     password: a
 
 logging:
   level:
@@ -66,6 +70,10 @@ spring:
  application:
    name: microservice-config-product-client
  profiles: beta
+ security:
+   user:
+     name: admin
+     password: a
 
 logging:
   level:
