@@ -3,6 +3,7 @@ spring:
     active:
       - dev
 ---
+
 server:
  port: 7001
 eureka:
@@ -47,3 +48,5 @@ spring:
       password: a
   application:
     name: microcloud-config-eureka-client
+    
+    
