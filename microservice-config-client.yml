@@ -18,6 +18,9 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: microservice-config-client
+ info:
+  app.name: microservice-config-client-beta
+  company.name: hyycinfo
 ---
 server:
   port: 8102
