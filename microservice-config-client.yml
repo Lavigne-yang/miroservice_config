@@ -26,7 +26,7 @@ eureka:
     
 info:
   app.name: microservice-config-client-beta
-  company.name: hyycinfo
+  company.name: hyycinfosdds11222
 ---
 server:
   port: 8102
